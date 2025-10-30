@@ -33,6 +33,7 @@
             btnEdit = new Button();
             btnDelete = new Button();
             btnViewTasks = new Button();
+            btnAnalytics = new Button();
             SuspendLayout();
             // 
             // listBoxProjects
@@ -55,7 +56,7 @@
             // 
             // btnEdit
             // 
-            btnEdit.Location = new Point(213, 389);
+            btnEdit.Location = new Point(195, 389);
             btnEdit.Name = "btnEdit";
             btnEdit.Size = new Size(104, 23);
             btnEdit.TabIndex = 3;
@@ -65,7 +66,7 @@
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(404, 389);
+            btnDelete.Location = new Point(351, 389);
             btnDelete.Name = "btnDelete";
             btnDelete.Size = new Size(100, 23);
             btnDelete.TabIndex = 4;
@@ -75,7 +76,7 @@
             // 
             // btnViewTasks
             // 
-            btnViewTasks.Location = new Point(628, 389);
+            btnViewTasks.Location = new Point(487, 389);
             btnViewTasks.Name = "btnViewTasks";
             btnViewTasks.Size = new Size(117, 23);
             btnViewTasks.TabIndex = 5;
@@ -83,11 +84,22 @@
             btnViewTasks.UseVisualStyleBackColor = true;
             btnViewTasks.Click += btnViewTasks_Click;
             // 
+            // btnAnalytics
+            // 
+            btnAnalytics.Location = new Point(54, 427);
+            btnAnalytics.Name = "btnAnalytics";
+            btnAnalytics.Size = new Size(111, 23);
+            btnAnalytics.TabIndex = 6;
+            btnAnalytics.Text = "Аналитика";
+            btnAnalytics.UseVisualStyleBackColor = true;
+            btnAnalytics.Click += btnAnalytics_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnAnalytics);
             Controls.Add(btnViewTasks);
             Controls.Add(btnDelete);
             Controls.Add(btnEdit);
@@ -105,5 +117,6 @@
         private Button btnEdit;
         private Button btnDelete;
         private Button btnViewTasks;
+        private Button btnAnalytics;
     }
 }

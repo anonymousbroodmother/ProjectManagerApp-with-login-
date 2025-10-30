@@ -127,6 +127,12 @@ namespace WinFormsApp1
         {
 
         }
+
+        private void btnAnalytics_Click(object sender, EventArgs e)
+        {
+            var analyticsForm = new AnalyticsForm();
+            analyticsForm.ShowDialog();
+        }
     }
 
 }
