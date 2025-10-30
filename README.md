@@ -38,3 +38,7 @@ private const string VALID_PASSWORD = "123";
 UI: Windows Forms
 База данных: SQLite (через Entity Framework Core)
 Хранение данных: локальный файл projectmanager.db
+
+# Важно ! 
+Если приложение не собирается и не запускается удалите файлы bin и obj в папке проекта
+
